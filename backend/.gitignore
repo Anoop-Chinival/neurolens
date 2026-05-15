@@ -1,0 +1,36 @@
+# ==========================================
+# NEUROLENS BACKEND GITIGNORE
+# ==========================================
+
+# Environment Variables (SABSE CRITICAL - NEVER PUSH)
+.env
+.env.*
+*.env
+
+# Python Caches aur Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+htmlcov/
+.toast/
+.nobackup
+
+# Virtual Environments (Agar local venv banaya ho toh)
+venv/
+.venv/
+env/
+ENV/
+dist/
+build/
+
+# IDE aur OS Files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
