@@ -1,5 +1,6 @@
 //Already Updated
-const API_BASE_URL = 'http://localhost:8000';
+// @ts-ignore
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
 
 export interface LocalDetection {
   original_text: string;
