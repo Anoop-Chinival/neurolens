@@ -32,8 +32,8 @@ OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 
 # Hugging Face Spaces endpoints (Production configuration)
-HF_SENTIMENT_SPACE_URL = os.getenv("HF_SENTIMENT_SPACE_URL", "https://your-username-llama-space.hf.space")
-HF_VISION_SPACE_URL = os.getenv("HF_VISION_SPACE_URL", "https://your-username-qwen-space.hf.space")
+HF_SENTIMENT_SPACE_URL = os.getenv("HF_SENTIMENT_SPACE_URL", "")
+HF_VISION_SPACE_URL = os.getenv("HF_VISION_SPACE_URL", "")
 
 # --- SCHEMAS ---
 class VisionRequest(BaseModel):
